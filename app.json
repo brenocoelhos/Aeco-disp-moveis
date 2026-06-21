@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Calculadora AECO",
+    "slug": "calculadora-aeco",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.breno.calculadoraaeco",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.breno.calculadoraaeco",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Calculadora simples desenvolvida com React Native e Expo para a atividade AECO.",
+    "extra": {
+      "eas": {
+        "projectId": "697193d1-2565-4786-9f43-1ba7a33508b9"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/697193d1-2565-4786-9f43-1ba7a33508b9"
+    }
+  }
+}
